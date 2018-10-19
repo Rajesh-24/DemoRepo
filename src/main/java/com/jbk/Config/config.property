@@ -1,0 +1,11 @@
+siteUrl =http://localhost/website/
+
+browser = chrome
+
+chromepath = E:\\Selenium Setup\\Chrome Driver\\chromedriver.exe
+
+username = kiran@gmail.com
+
+password = 123456
+
+testDataPath = E:\\Hybrid Using Maven\\AdminLTE\\testData\\testData.xlsx

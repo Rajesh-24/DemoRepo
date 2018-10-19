@@ -1,0 +1,5 @@
+com\jbk\TestCases\AddUserPageTest.class
+com\jbk\TestCases\LoginPageTest.class
+com\jbk\TestCases\DashboardPageTest.class
+com\jbk\TestCases\UserPageTest.class
+com\jbk\TestCases\OperatorPageTest.class

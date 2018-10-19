@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.jbk.TestCases.OperatorPageTest">
+        <methods>
+          <include name="operatorPageSetup"/>
+          <include name="shutDown"/>
+          <include name="verifyOperatorTableHeading"/>
+        </methods>
+      </class> <!-- com.jbk.TestCases.OperatorPageTest -->
+      <class name="com.jbk.TestCases.DashboardPageTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="dashboardPageSetup"/>
+        </methods>
+      </class> <!-- com.jbk.TestCases.DashboardPageTest -->
+      <class name="com.jbk.TestCases.AddUserPageTest">
+        <methods>
+          <include name="verifyAddUserPageLabel"/>
+          <include name="verifyAddUserForm" invocation-numbers="0"/>
+          <include name="addUserPageSetup"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.jbk.TestCases.AddUserPageTest -->
+      <class name="com.jbk.TestCases.UserPageTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="userPageSetup"/>
+        </methods>
+      </class> <!-- com.jbk.TestCases.UserPageTest -->
+      <class name="com.jbk.TestCases.LoginPageTest">
+        <methods>
+          <include name="loginSetup"/>
+          <include name="shutDown"/>
+        </methods>
+      </class> <!-- com.jbk.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

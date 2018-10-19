@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="21" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="205565" started-at="2018-10-14T18:18:32Z" finished-at="2018-10-14T18:21:57Z">
+    <groups>
+      <group name="Regression">
+        <method signature="AddUserPageTest.verifyAddUserForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserForm" class="com.jbk.TestCases.AddUserPageTest"/>
+        <method signature="AddUserPageTest.verifyAddUserPageFormLables()[pri:3, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageFormLables" class="com.jbk.TestCases.AddUserPageTest"/>
+        <method signature="AddUserPageTest.verifyAddUserPageLabel()[pri:2, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageLabel" class="com.jbk.TestCases.AddUserPageTest"/>
+        <method signature="AddUserPageTest.verifyAddUserPageTitle()[pri:1, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageTitle" class="com.jbk.TestCases.AddUserPageTest"/>
+        <method signature="DashboardPageTest.verifyDashboardPageLabel()[pri:2, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyDashboardPageLabel" class="com.jbk.TestCases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyDashboardPageTitle()[pri:1, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyDashboardPageTitle" class="com.jbk.TestCases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyLoggedUser()[pri:3, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyLoggedUser" class="com.jbk.TestCases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyLogoutLink()[pri:5, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyLogoutLink" class="com.jbk.TestCases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyUserLink()[pri:4, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyUserLink" class="com.jbk.TestCases.DashboardPageTest"/>
+        <method signature="LoginPageTest.verifyLogin()[pri:1, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLogin" class="com.jbk.TestCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginPageHeading()[pri:3, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLoginPageHeading" class="com.jbk.TestCases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginPageTitle()[pri:2, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLoginPageTitle" class="com.jbk.TestCases.LoginPageTest"/>
+        <method signature="OperatorPageTest.verifyOperatorPageLabel()[pri:2, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageLabel" class="com.jbk.TestCases.OperatorPageTest"/>
+        <method signature="OperatorPageTest.verifyOperatorPageTableLabel()[pri:3, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageTableLabel" class="com.jbk.TestCases.OperatorPageTest"/>
+        <method signature="OperatorPageTest.verifyOperatorPageTitle()[pri:1, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageTitle" class="com.jbk.TestCases.OperatorPageTest"/>
+        <method signature="OperatorPageTest.verifyOperatorTableHeading()[pri:4, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorTableHeading" class="com.jbk.TestCases.OperatorPageTest"/>
+        <method signature="UserPageTest.verifyLoginPageBtn()[pri:3, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyLoginPageBtn" class="com.jbk.TestCases.UserPageTest"/>
+        <method signature="UserPageTest.verifyUserPageLabel()[pri:2, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyUserPageLabel" class="com.jbk.TestCases.UserPageTest"/>
+        <method signature="UserPageTest.verifyUserPageTitle()[pri:1, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyUserPageTitle" class="com.jbk.TestCases.UserPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="205565" started-at="2018-10-14T18:18:32Z" finished-at="2018-10-14T18:21:57Z">
+      <class name="com.jbk.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="loginSetup()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="loginSetup" is-config="true" duration-ms="5317" started-at="2018-10-14T23:49:11Z" finished-at="2018-10-14T23:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLogin" duration-ms="1836" started-at="2018-10-14T23:49:16Z" description="Validate Login" finished-at="2018-10-14T23:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="shutDown" is-config="true" duration-ms="956" started-at="2018-10-14T23:49:18Z" finished-at="2018-10-14T23:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="loginSetup()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="loginSetup" is-config="true" duration-ms="5256" started-at="2018-10-14T23:49:56Z" finished-at="2018-10-14T23:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:2, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLoginPageTitle" duration-ms="47" started-at="2018-10-14T23:50:01Z" description="Validate Login Page Title" finished-at="2018-10-14T23:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="shutDown" is-config="true" duration-ms="1048" started-at="2018-10-14T23:50:01Z" finished-at="2018-10-14T23:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="loginSetup()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="loginSetup" is-config="true" duration-ms="5397" started-at="2018-10-14T23:50:40Z" finished-at="2018-10-14T23:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method status="PASS" signature="verifyLoginPageHeading()[pri:3, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="verifyLoginPageHeading" duration-ms="114" started-at="2018-10-14T23:50:45Z" description="Validate Login Page Heading" finished-at="2018-10-14T23:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeading -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.LoginPageTest@6e1ec318]" name="shutDown" is-config="true" duration-ms="929" started-at="2018-10-14T23:50:45Z" finished-at="2018-10-14T23:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.jbk.TestCases.LoginPageTest -->
+      <class name="com.jbk.TestCases.AddUserPageTest">
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="8793" started-at="2018-10-14T23:49:01Z" finished-at="2018-10-14T23:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="PASS" signature="verifyAddUserPageTitle()[pri:1, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageTitle" duration-ms="28" started-at="2018-10-14T23:49:10Z" description="Validate Add User Page Title" finished-at="2018-10-14T23:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserPageTitle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="938" started-at="2018-10-14T23:49:10Z" finished-at="2018-10-14T23:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="8546" started-at="2018-10-14T23:49:46Z" finished-at="2018-10-14T23:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="FAIL" signature="verifyAddUserPageLabel()[pri:2, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageLabel" duration-ms="97" started-at="2018-10-14T23:49:54Z" description="Validate Add User Page Label" finished-at="2018-10-14T23:49:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Add User] but found [Add Userv]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Add User] but found [Add Userv]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.TestCases.AddUserPageTest.verifyAddUserPageLabel(AddUserPageTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserPageLabel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="1050" started-at="2018-10-14T23:49:55Z" finished-at="2018-10-14T23:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="8270" started-at="2018-10-14T23:50:30Z" finished-at="2018-10-14T23:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="PASS" signature="verifyAddUserPageFormLables()[pri:3, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserPageFormLables" duration-ms="407" started-at="2018-10-14T23:50:38Z" description="Validate Add User Form Labels" finished-at="2018-10-14T23:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserPageFormLables -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="948" started-at="2018-10-14T23:50:39Z" finished-at="2018-10-14T23:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="9054" started-at="2018-10-14T23:51:07Z" finished-at="2018-10-14T23:51:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="FAIL" signature="verifyAddUserForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserForm" duration-ms="10763" started-at="2018-10-14T23:51:16Z" description="Validate Add User Form" data-provider="userData" finished-at="2018-10-14T23:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Gender]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[State]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: State
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'DESKTOP-E4PH7S5', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: State
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'DESKTOP-E4PH7S5', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.jbk.Pages.AddUserPage.addNewUserTest(AddUserPage.java:106)
+	at com.jbk.TestCases.AddUserPageTest.verifyAddUserForm(AddUserPageTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserForm -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="1000" started-at="2018-10-14T23:51:27Z" finished-at="2018-10-14T23:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="8193" started-at="2018-10-14T23:51:28Z" finished-at="2018-10-14T23:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="PASS" signature="verifyAddUserForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserForm" duration-ms="1402" started-at="2018-10-14T23:51:36Z" description="Validate Add User Form" data-provider="userData" finished-at="2018-10-14T23:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9975742251]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rajesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rajesh12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserForm -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="969" started-at="2018-10-14T23:51:37Z" finished-at="2018-10-14T23:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="addUserPageSetup()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="addUserPageSetup" is-config="true" duration-ms="8121" started-at="2018-10-14T23:51:38Z" finished-at="2018-10-14T23:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserPageSetup -->
+        <test-method status="PASS" signature="verifyAddUserForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="verifyAddUserForm" duration-ms="1336" started-at="2018-10-14T23:51:46Z" description="Validate Add User Form" data-provider="userData" finished-at="2018-10-14T23:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8799444477]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[john456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserForm -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.AddUserPageTest@10bdf5e5]" name="shutDown" is-config="true" duration-ms="951" started-at="2018-10-14T23:51:48Z" finished-at="2018-10-14T23:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.jbk.TestCases.AddUserPageTest -->
+      <class name="com.jbk.TestCases.UserPageTest">
+        <test-method status="PASS" signature="userPageSetup()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="userPageSetup" is-config="true" duration-ms="8172" started-at="2018-10-14T23:48:42Z" finished-at="2018-10-14T23:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userPageSetup -->
+        <test-method status="PASS" signature="verifyUserPageTitle()[pri:1, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyUserPageTitle" duration-ms="15" started-at="2018-10-14T23:48:50Z" description="Validate User Page Title" finished-at="2018-10-14T23:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPageTitle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="shutDown" is-config="true" duration-ms="942" started-at="2018-10-14T23:48:50Z" finished-at="2018-10-14T23:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="userPageSetup()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="userPageSetup" is-config="true" duration-ms="7963" started-at="2018-10-14T23:49:28Z" finished-at="2018-10-14T23:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userPageSetup -->
+        <test-method status="PASS" signature="verifyUserPageLabel()[pri:2, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyUserPageLabel" duration-ms="92" started-at="2018-10-14T23:49:36Z" description="Validate User Page Label" finished-at="2018-10-14T23:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPageLabel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="shutDown" is-config="true" duration-ms="949" started-at="2018-10-14T23:49:36Z" finished-at="2018-10-14T23:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="userPageSetup()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="userPageSetup" is-config="true" duration-ms="8419" started-at="2018-10-14T23:50:10Z" finished-at="2018-10-14T23:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userPageSetup -->
+        <test-method status="PASS" signature="verifyLoginPageBtn()[pri:3, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="verifyLoginPageBtn" duration-ms="706" started-at="2018-10-14T23:50:19Z" description="Validate Add User Page Button" finished-at="2018-10-14T23:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageBtn -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.UserPageTest@148080bb]" name="shutDown" is-config="true" duration-ms="954" started-at="2018-10-14T23:50:19Z" finished-at="2018-10-14T23:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.jbk.TestCases.UserPageTest -->
+      <class name="com.jbk.TestCases.OperatorPageTest">
+        <test-method status="PASS" signature="operatorPageSetup()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="operatorPageSetup" is-config="true" duration-ms="9100" started-at="2018-10-14T23:48:51Z" finished-at="2018-10-14T23:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operatorPageSetup -->
+        <test-method status="PASS" signature="verifyOperatorPageTitle()[pri:1, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageTitle" duration-ms="13" started-at="2018-10-14T23:49:00Z" description="Validate Operator Page Title" finished-at="2018-10-14T23:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperatorPageTitle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="shutDown" is-config="true" duration-ms="950" started-at="2018-10-14T23:49:00Z" finished-at="2018-10-14T23:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="operatorPageSetup()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="operatorPageSetup" is-config="true" duration-ms="7793" started-at="2018-10-14T23:49:37Z" finished-at="2018-10-14T23:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operatorPageSetup -->
+        <test-method status="PASS" signature="verifyOperatorPageLabel()[pri:2, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageLabel" duration-ms="110" started-at="2018-10-14T23:49:45Z" description="Validate Operator Page Label" finished-at="2018-10-14T23:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperatorPageLabel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="shutDown" is-config="true" duration-ms="985" started-at="2018-10-14T23:49:45Z" finished-at="2018-10-14T23:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="operatorPageSetup()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="operatorPageSetup" is-config="true" duration-ms="8432" started-at="2018-10-14T23:50:20Z" finished-at="2018-10-14T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operatorPageSetup -->
+        <test-method status="PASS" signature="verifyOperatorPageTableLabel()[pri:3, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorPageTableLabel" duration-ms="83" started-at="2018-10-14T23:50:29Z" description="Validate Operator Page Table Label" finished-at="2018-10-14T23:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperatorPageTableLabel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="shutDown" is-config="true" duration-ms="1193" started-at="2018-10-14T23:50:29Z" finished-at="2018-10-14T23:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="operatorPageSetup()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="operatorPageSetup" is-config="true" duration-ms="7981" started-at="2018-10-14T23:50:55Z" finished-at="2018-10-14T23:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operatorPageSetup -->
+        <test-method status="FAIL" signature="verifyOperatorTableHeading()[pri:4, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="verifyOperatorTableHeading" duration-ms="210" started-at="2018-10-14T23:51:03Z" description="Validate Operator Page Table Headings" finished-at="2018-10-14T23:51:03Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Operator] but found [Reason]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Operator] but found [Reason]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.TestCases.OperatorPageTest.verifyOperatorTableHeading(OperatorPageTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOperatorTableHeading -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.OperatorPageTest@dc24521]" name="shutDown" is-config="true" duration-ms="1016" started-at="2018-10-14T23:51:03Z" finished-at="2018-10-14T23:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.jbk.TestCases.OperatorPageTest -->
+      <class name="com.jbk.TestCases.DashboardPageTest">
+        <test-method status="PASS" signature="dashboardPageSetup()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="dashboardPageSetup" is-config="true" duration-ms="9039" started-at="2018-10-14T23:48:32Z" finished-at="2018-10-14T23:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageSetup -->
+        <test-method status="PASS" signature="verifyDashboardPageTitle()[pri:1, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyDashboardPageTitle" duration-ms="28" started-at="2018-10-14T23:48:41Z" description="Validate Dashboard Page Title" finished-at="2018-10-14T23:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="shutDown" is-config="true" duration-ms="982" started-at="2018-10-14T23:48:41Z" finished-at="2018-10-14T23:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="dashboardPageSetup()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="dashboardPageSetup" is-config="true" duration-ms="7841" started-at="2018-10-14T23:49:19Z" finished-at="2018-10-14T23:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageSetup -->
+        <test-method status="PASS" signature="verifyDashboardPageLabel()[pri:2, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyDashboardPageLabel" duration-ms="96" started-at="2018-10-14T23:49:27Z" description="Validate Dashboard Page Label" finished-at="2018-10-14T23:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageLabel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="shutDown" is-config="true" duration-ms="1168" started-at="2018-10-14T23:49:27Z" finished-at="2018-10-14T23:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="dashboardPageSetup()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="dashboardPageSetup" is-config="true" duration-ms="7312" started-at="2018-10-14T23:50:02Z" finished-at="2018-10-14T23:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageSetup -->
+        <test-method status="PASS" signature="verifyLoggedUser()[pri:3, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyLoggedUser" duration-ms="71" started-at="2018-10-14T23:50:09Z" description="Validate Logged User" finished-at="2018-10-14T23:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedUser -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="shutDown" is-config="true" duration-ms="922" started-at="2018-10-14T23:50:09Z" finished-at="2018-10-14T23:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="dashboardPageSetup()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="dashboardPageSetup" is-config="true" duration-ms="7111" started-at="2018-10-14T23:50:46Z" finished-at="2018-10-14T23:50:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageSetup -->
+        <test-method status="PASS" signature="verifyUserLink()[pri:4, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyUserLink" duration-ms="629" started-at="2018-10-14T23:50:53Z" description="Validate user link" finished-at="2018-10-14T23:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLink -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="shutDown" is-config="true" duration-ms="948" started-at="2018-10-14T23:50:54Z" finished-at="2018-10-14T23:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="dashboardPageSetup()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="dashboardPageSetup" is-config="true" duration-ms="7518" started-at="2018-10-14T23:51:49Z" finished-at="2018-10-14T23:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardPageSetup -->
+        <test-method status="PASS" signature="verifyLogoutLink()[pri:5, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="verifyLogoutLink" duration-ms="347" started-at="2018-10-14T23:51:56Z" description="Validate operator link" finished-at="2018-10-14T23:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.jbk.TestCases.DashboardPageTest@55d56113]" name="shutDown" is-config="true" duration-ms="933" started-at="2018-10-14T23:51:56Z" finished-at="2018-10-14T23:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- com.jbk.TestCases.DashboardPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

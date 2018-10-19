@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 340.062 sec <<< FAILURE!
+verifyAddUserPageLabel(com.jbk.TestCases.AddUserPageTest)  Time elapsed: 0.173 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Add User] but found [Add Userv]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.TestCases.AddUserPageTest.verifyAddUserPageLabel(AddUserPageTest.java:53)
+
+verifyAddUserForm(com.jbk.TestCases.AddUserPageTest)  Time elapsed: 11.032 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: State
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.0', revision: '924c4067df', time: '2017-11-30T11:20:39.408Z'
+System info: host: 'DESKTOP-E4PH7S5', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.jbk.Pages.AddUserPage.addNewUserTest(AddUserPage.java:106)
+	at com.jbk.TestCases.AddUserPageTest.verifyAddUserForm(AddUserPageTest.java:77)
+
+verifyOperatorTableHeading(com.jbk.TestCases.OperatorPageTest)  Time elapsed: 0.2 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Operator] but found [Reason]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.jbk.TestCases.OperatorPageTest.verifyOperatorTableHeading(OperatorPageTest.java:60)
+

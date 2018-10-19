@@ -1,0 +1,10 @@
+com\jbk\Base\TestBase.class
+com\jbk\Pages\OperatorPage.class
+com\jbk\Reports\ExtentReportListener.class
+com\jbk\Pages\LogoutPage.class
+com\jbk\Utils\TestDataProvider.class
+com\jbk\Pages\AddUserPage.class
+com\jbk\Pages\UserPage.class
+com\jbk\Utils\ReadTestData.class
+com\jbk\Pages\DashboardPage.class
+com\jbk\Pages\LoginPage.class
