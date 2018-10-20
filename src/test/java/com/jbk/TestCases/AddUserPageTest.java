@@ -57,7 +57,6 @@ public class AddUserPageTest extends TestBase
 	public void verifyAddUserPageFormLables()
 	{
 		List<String> actuaFormLabels = addUserPage.addUserPageFormLabelsTest();
-		System.out.println(actuaFormLabels);
 		List<String> expectedFormLabels = new ArrayList<String>();
 		
 		expectedFormLabels.add("Username");
@@ -66,7 +65,6 @@ public class AddUserPageTest extends TestBase
 		expectedFormLabels.add("Gender");
 		expectedFormLabels.add("State");
 		expectedFormLabels.add("Password");
-		System.out.println(expectedFormLabels);
 		
 		assertEquals(actuaFormLabels, expectedFormLabels);
 	}
